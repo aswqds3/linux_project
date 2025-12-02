@@ -32,6 +32,7 @@ int main() {
             printf(" -> 땡! 정답: %s \n", word_list[idx].english);
         }
     }
+    // 결과 출력
     printf(">> 결과: %d / %d 점\n", score, count);
     save_words();
 
