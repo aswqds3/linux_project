@@ -10,19 +10,19 @@ while true; do
     case "$command" in
         show)
             echo "기능: 영단어 표시"
-            ./main_program 0
+            ./common 0
             ;;
         add)
             echo "기능: 영단어 추가"
-            ./main_program 1
+            ./common 1
             ;;
         quiz)
             echo "기능: 영단어 퀴즈"
-            ./main_program 2
+            ./common 2
             ;;
         check)
             echo "기능: 학습 진도표 체크"
-            ./main_program 3
+            ./common 3
             ;;
         exit)
             echo "프로그램을 종료합니다."
