@@ -25,7 +25,7 @@ extern Word word_list[MAX_WORDS];
 extern int total_words;
 extern char file_path[256];
 
-// 공통 함수 선언
+// 공통 함수 선언.
 void get_file_path();
 void load_words();
 void save_words();
