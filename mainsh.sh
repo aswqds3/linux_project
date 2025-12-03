@@ -4,13 +4,18 @@ echo "영단어 학습 프로그램을 시작합니다."
 
 while true; do
     echo ""
-    echo "사용 가능한 명령어: show / add / quiz / check / exit"
+    echo "--사용 가능한 명령어--"
+    echo "show : 영단어 표시"
+    echo "add : 영단어 추가"
+    echo "quiz : 영단어 퀴즈"
+    echo "check : 학습 진도표 체크"
+    echo "exit : 프로그램 종료"
     read -p "명령어를 입력하세요: " command
 
     case "$command" in
         show)
             echo "기능: 영단어 표시"
-            ./common 0
+            ./show_words
             ;;
         add)
             echo "기능: 영단어 추가"
@@ -18,11 +23,11 @@ while true; do
             ;;
         quiz)
             echo "기능: 영단어 퀴즈"
-            ./common 2
+            ./quiz
             ;;
         check)
             echo "기능: 학습 진도표 체크"
-            ./common 3
+            ./learning_table
             ;;
         exit)
             echo "프로그램을 종료합니다."
