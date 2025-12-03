@@ -15,6 +15,7 @@ int main() {
     strcpy(word_list[total_words].korean, kor);
     word_list[total_words].is_memorized = 0;
     printf("%s : %s가 추가되었습니다.\n",eng,kor);
-
+    total_words++;
+    save_words();
     return 0;
 }
