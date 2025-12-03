@@ -10,7 +10,7 @@ int main() {
     }
     printf("=== 단어 목록 ===\n");
     for(int i=0;i<total_words;i++){
-        printf("%2d %8s %6s \n",i+1,word_list[i].english,word_list[i].korean);
+        printf("%2d %s %s \n",i+1,word_list[i].english,word_list[i].korean);
     }
     return 0;
 }
