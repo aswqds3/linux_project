@@ -2,6 +2,12 @@
 echo "$USERNAME 님 반갑습니다!"
 echo "영단어 학습 프로그램을 시작합니다."
 
+# 실행 파일이 없으면 컴파일
+[ ! -f show_words ] && gcc show_words.c common.c -o show_words
+[ ! -f add_words ] && gcc add_words.c common.c -o add_words
+[ ! -f quiz ] && gcc quiz.c common.c -o quiz
+[ ! -f learning_table ] && gcc learning_table.c common.c -o learning_table
+
 while true; do
     echo ""
     echo "--사용 가능한 명령어--"
@@ -19,7 +25,7 @@ while true; do
             ;;
         add)
             echo "기능: 영단어 추가"
-            ./common 1
+            ./add_words
             ;;
         quiz)
             echo "기능: 영단어 퀴즈"
