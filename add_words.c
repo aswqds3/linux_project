@@ -5,16 +5,16 @@ int main() {
     load_words();
     char eng[MAX_LEN], kor[MAX_LEN];
     if (total_words >= MAX_WORDS) {
-        printf("ë‹¨ì–´ ëª©ë¡ì´ ê°€ë“ ì°¼ìŠµë‹ˆë‹¤.\n");
+        printf("´Ü¾î ¸ñ·ÏÀÌ °¡µæ Ã¡½À´Ï´Ù.\n");
         return 1;
     }
-    printf("=== ì¶”ê°€í•  ë‹¨ì–´ë¥¼ \"ì˜ì–´ í•œê¸€\"ê³¼ ê°™ì´ ì…ë ¥í•´ì£¼ì„¸ìš” ===\n");
-    printf("=== ì˜ˆì‹œ : apple ì‚¬ê³¼ ===\n");
+    printf("=== Ãß°¡ÇÒ ´Ü¾î¸¦ \"¿µ¾î ÇÑ±Û\"°ú °°ÀÌ ÀÔ·ÂÇØÁÖ¼¼¿ä ===\n");
+    printf("=== ¿¹½Ã : apple »ç°ú ===\n");
     scanf("%s %s",eng,kor);
     strcpy(word_list[total_words].english, eng);
     strcpy(word_list[total_words].korean, kor);
     word_list[total_words].is_memorized = 0;
-    printf("%s : %sê°€ ì¶”ê°€ë˜ì—ˆìŠµë‹ˆë‹¤.\n",eng,kor);
+    printf("%s : %s°¡ Ãß°¡µÇ¾ú½À´Ï´Ù.\n",eng,kor);
 
     return 0;
 }

@@ -3,9 +3,9 @@
 int main() {
     get_file_path();
     load_words();
-    //ë‹¨ì–´ ì—†ì„ ë•Œ
+    //´Ü¾î ¾øÀ» ¶§
     if (total_words == 0) {
-        printf(">> ë‹¨ì–´ê°€ ì—†ìŠµë‹ˆë‹¤.\n");
+        printf(">> ´Ü¾î°¡ ¾ø½À´Ï´Ù.\n");
         return 0;
     }
     
@@ -14,26 +14,26 @@ int main() {
     if (total_words < 5) count = total_words;
     int score = 0;
 
-    printf("=== ëžœë¤ í€´ì¦ˆ (%dë¬¸ì œ) ===\n", count);
-    // 5ë¬¸ì œ ëžœë¤ ì¶œì œ
+    printf("=== ·£´ý ÄûÁî (%d¹®Á¦) ===\n", count);
+    // 5¹®Á¦ ·£´ý ÃâÁ¦
     for (int i = 0; i < count; i++) {
         int idx = rand() % total_words;
         char answer[MAX_LEN];
 
         printf("Q%d. %s : ", i+1, word_list[idx].korean);
         scanf("%s", answer);
-        // ë§žì•˜ì„ ë•Œ
+        // ¸Â¾ÒÀ» ¶§
         if (strcmp(answer, word_list[idx].english) == 0) {
-            printf(" -> ì •ë‹µ!\n");
+            printf(" -> Á¤´ä!\n");
             score++;
             word_list[idx].is_memorized = 1;
-            // í‹€ë ¸ì„ ë•Œ
+            // Æ²·ÈÀ» ¶§
         } else {
-            printf(" -> ë•¡! ì •ë‹µ: %s \n", word_list[idx].english);
+            printf(" -> ¶¯! Á¤´ä: %s \n", word_list[idx].english);
         }
     }
-    // ê²°ê³¼ ì¶œë ¥
-    printf(">> ê²°ê³¼: %d / %d ì \n", score, count);
+    // °á°ú Ãâ·Â
+    printf(">> °á°ú: %d / %d Á¡\n", score, count);
     save_words();
 
     return 0;

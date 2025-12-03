@@ -1,20 +1,20 @@
-ï»¿apple,ì‚¬ê³¼,1
-banana,ë°”ë‚˜ë‚˜,0
-computer,ì»´í“¨í„°,1
-algorithm,ì•Œê³ ë¦¬ì¦˜,0
-structure,êµ¬ì¡°ì²´,0
-pointer,í¬ì¸í„°,0
-variable,ë³€ìˆ˜,1
-function,í•¨ìˆ˜,0
-compile,ì»´íŒŒì¼í•˜ë‹¤,1
-memory,ë©”ëª¨ë¦¬/ê¸°ì–µ,0
-network,ë„¤íŠ¸ì›Œí¬,0
-database,ë°ì´í„°ë² ì´ìŠ¤,1
-server,ì„œë²„,0
-client,í´ë¼ì´ì–¸íŠ¸,0
-browser,ë¸Œë¼ìš°ì €,1
-interface,ì¸í„°í˜ì´ìŠ¤,0
-loop,ë°˜ë³µë¬¸,1
-condition,ì¡°ê±´,0
-integer,ì •ìˆ˜,0
-string,ë¬¸ìì—´,0
+apple,»ç°ú,1
+banana,¹Ù³ª³ª,0
+computer,ÄÄÇ»ÅÍ,1
+algorithm,¾Ë°í¸®Áò,0
+structure,±¸Á¶Ã¼,0
+pointer,Æ÷ÀÎÅÍ,1
+variable,º¯¼ö,1
+function,ÇÔ¼ö,0
+compile,ÄÄÆÄÀÏÇÏ´Ù,1
+memory,¸Ş¸ğ¸®/±â¾ï,1
+network,³×Æ®¿öÅ©,1
+database,µ¥ÀÌÅÍº£ÀÌ½º,1
+server,¼­¹ö,0
+client,Å¬¶óÀÌ¾ğÆ®,0
+browser,ºê¶ó¿ìÀú,1
+interface,ÀÎÅÍÆäÀÌ½º,0
+loop,¹İº¹¹®,1
+condition,Á¶°Ç,1
+integer,Á¤¼ö,0
+string,¹®ÀÚ¿­,0

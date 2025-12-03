@@ -11,8 +11,8 @@ int main() {
 
     double rate = total_words > 0 ? (double)memo / total_words * 100.0 : 0.0;
 
-    printf("=== í•™ìŠµ ì§„ë„í‘œ ===\n");
-    printf("ì§„í–‰ë¥ : %.1f%% (%d/%d)\n", rate, memo, total_words);
+    printf("=== ÇĞ½À ÁøµµÇ¥ ===\n");
+    printf("ÁøÇà·ü: %.1f%% (%d/%d)\n", rate, memo, total_words);
     
     printf("[");
     for(int i=0; i<20; i++) {
