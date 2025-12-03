@@ -3,12 +3,12 @@
 int main() {
     get_file_path();
     load_words();
-    //ë‹¨ì–´ ì—†ì„ ë•Œ
+    //´Ü¾î ¾øÀ» ¶§
     if (total_words == 0) {
-        printf(">> ë‹¨ì–´ê°€ ì—†ìŠµë‹ˆë‹¤.\n");
+        printf(">> ´Ü¾î°¡ ¾ø½À´Ï´Ù.\n");
         return 0;
     }
-    printf("=== ë‹¨ì–´ ëª©ë¡ ===\n");
+    printf("=== ´Ü¾î ¸ñ·Ï ===\n");
     for(int i=0;i<total_words;i++){
         printf("%2d %s %s \n",i+1,word_list[i].english,word_list[i].korean);
     }
